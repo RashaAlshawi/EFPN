@@ -38,7 +38,7 @@ This project is focused on building an efficient and flexible segmentation model
   - **`dataset.py`**: Defines functions for loading and processing the dataset.
 
 ### 2. **Notebooks**
-- **`notebooks/EFPN.ipynb`**: A Jupyter notebook for training and evaluating the model interactively, especially useful when running in Google Colab.
+- **`EFPN.ipynb`**: A Jupyter notebook for training and evaluating the model interactively, especially useful when running in Google Colab.
 
 ### 3. **Dataset Folder**
 ### 4. **Data Imbalance Folder**
