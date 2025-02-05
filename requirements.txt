@@ -1,0 +1,8 @@
+TensorFlow version: 2.18.0
+Keras version: 3.8.0
+NumPy version: 1.26.4
+Scikit-learn version: 1.6.1
+Matplotlib version: 3.10.0
+OpenCV version: 4.10.0
+h5py version: 3.12.1
+Pillow version: 11.1.0
