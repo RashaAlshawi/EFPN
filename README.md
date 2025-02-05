@@ -27,12 +27,21 @@ This project is focused on building an efficient and flexible segmentation model
    ```
    python eval.py
    ```
-# File Structure
+## File Structure
 
-- model.py: Contains the model architecture and the function to build the EFPN model (build_fpn).
-- train.py: Defines the training loop, including data loading, model compilation, and training.
-- eval.py: Handles model evaluation, including computing metrics like F1 score and IoU.
-- utils.py: Contains utility functions for metrics calculation (e.g., F1 score, IoU).
-- dataset.py: Defines functions for loading and processing the dataset.
-- notebooks/EFPN.ipynb: A Jupyter notebook for training and evaluating the model interactively, especially useful when running in Google Colab.
+### 1. **Main Project Files**
+- **`e_fpn/`**: Contains the core code for building and managing the EFPN architecture.
+  - **`model.py`**: Contains the model architecture and the function to build the EFPN model (`build_fpn`).
+  - **`train.py`**: Defines the training loop, including data loading, model compilation, and training.
+  - **`eval.py`**: Handles model evaluation, including computing metrics like F1 score and IoU.
+  - **`utils.py`**: Contains utility functions for metrics calculation (e.g., F1 score, IoU).
+  - **`dataset.py`**: Defines functions for loading and processing the dataset.
+
+### 2. **Notebooks**
+- **`notebooks/EFPN.ipynb`**: A Jupyter notebook for training and evaluating the model interactively, especially useful when running in Google Colab.
+
+### 3. **Dataset Folder**
+### 4. **Data Imbalance Folder**
+- **`Data Imbalance/`**: Contains data related to class imbalances used for model training and testing.
+### 5. **experiments Folder**
 
