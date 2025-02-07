@@ -41,7 +41,10 @@ This project is focused on building an efficient and flexible segmentation model
 - **`EFPN.ipynb`**: A Jupyter notebook for training and evaluating the model interactively, especially useful when running in Google Colab.
 
 ### 3. **Dataset Folder**
-### 4. **Data Imbalance Folder**
-- **`Data Imbalance/`**: Contains data related to class imbalances used for model training and testing.
+
+### 4. **Data Imbalance Folder** This directory contains the code for:
+- **`DataAugmentation.ipynb/`**: handling data imbalance through augmentation techniques.
+- **`ClassDecomposition_DataAugmentation.ipynb/`**: It includes scripts for applying class decomposition strategies and data augmentation while training the EFPN model to address class imbalance.
+
 ### 5. **experiments Folder**
 
