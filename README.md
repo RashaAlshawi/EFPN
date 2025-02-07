@@ -41,6 +41,7 @@ This project is focused on building an efficient and flexible segmentation model
 - **`EFPN.ipynb`**: A Jupyter notebook for training and evaluating the model interactively, especially useful when running in Google Colab.
 
 ### 3. **Dataset Folder**
+The dataset consists of 9 classes representing different deficiencies in culverts and sewer pipes, with pixel-level annotations. Currently, the dataset is not publicly available, but we are in the process of obtaining the necessary permissions to make it accessible.
 
 ### 4. **Data Imbalance Folder** This directory contains the code for:
 - **`DataAugmentation.ipynb/`**: handling data imbalance through augmentation techniques.
